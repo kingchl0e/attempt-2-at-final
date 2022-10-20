@@ -1,0 +1,44 @@
+<style> 
+   body {
+    background-color: black;
+  }
+	 .grid-container {
+       	display: grid;
+  			grid-template-columns: auto;
+  			grid-template-rows: 1px 1px; 
+       justify-items: stretch;
+
+       
+     }
+     .item-a {
+  			align-self: stretch;
+  			grid-column-start: 0;
+ 				grid-column-end: 5;
+       	width: 1px;
+        height: 1px;
+        transform: scale(50);
+        background: transparent;
+        box-shadow: 2px 1px #9c919c, 3px 1px #9c919c, 4px 1px #9c919c, 5px 1px #9c919c, 6px 1px #9c919c, 7px 1px #9c919c, 8px 1px #9c919c, 9px 1px #9c919c, 10px 1px #9c919c, 11px 1px #9c919c, 12px 1px #9c919c, 13px 1px #9c919c, 14px 1px #9c919c, 2px 2px #9c919c, 14px 2px #9c919c, 2px 3px #9c919c, 4px 3px #9c919c, 5px 3px #9c919c, 6px 3px #9c919c, 7px 3px #9c919c, 8px 3px #9c919c, 9px 3px #9c919c, 10px 3px #9c919c, 11px 3px #9c919c, 12px 3px #9c919c, 14px 3px #9c919c, 2px 4px #9c919c, 4px 4px #9c919c, 12px 4px #9c919c, 14px 4px #9c919c, 2px 5px #9c919c, 4px 5px #9c919c, 6px 5px #9c919c, 7px 5px #9c919c, 8px 5px #9c919c, 9px 5px #9c919c, 10px 5px #9c919c, 12px 5px #9c919c, 14px 5px #9c919c, 2px 6px #9c919c, 4px 6px #9c919c, 6px 6px #9c919c, 10px 6px #9c919c, 12px 6px #9c919c, 14px 6px #9c919c, 2px 7px #9c919c, 4px 7px #9c919c, 6px 7px #9c919c, 10px 7px #9c919c, 12px 7px #9c919c, 14px 7px #9c919c, 2px 8px #9c919c, 4px 8px #9c919c, 6px 8px #9c919c, 7px 8px #9c919c, 8px 8px #9c919c, 9px 8px #9c919c, 10px 8px #9c919c, 12px 8px #9c919c, 14px 8px #9c919c, 2px 9px #9c919c, 4px 9px #9c919c, 12px 9px #9c919c, 14px 9px #9c919c, 2px 10px #9c919c, 4px 10px #9c919c, 5px 10px #9c919c, 6px 10px #9c919c, 7px 10px #9c919c, 8px 10px #9c919c, 9px 10px #9c919c, 10px 10px #9c919c, 11px 10px #9c919c, 12px 10px #9c919c, 14px 10px #9c919c, 2px 11px #9c919c, 14px 11px #9c919c, 2px 12px #9c919c, 3px 12px #9c919c, 4px 12px #9c919c, 5px 12px #9c919c, 6px 12px #9c919c, 7px 12px #9c919c, 8px 12px #9c919c, 9px 12px #9c919c, 10px 12px #9c919c, 11px 12px #9c919c, 12px 12px #9c919c, 13px 12px #9c919c, 14px 12px #9c919c;
+			
+     }
+  .item-b {
+    align-self: stretch;
+  			grid-column-start: 4;
+ 				grid-column-end: 5;
+       	width: 1px;
+        height: 1px;
+        transform: scale(50);
+        background: transparent;
+    		box-shadow: 3px 2px #e6d6e6, 4px 2px #e6d6e6, 5px 2px #e6d6e6, 6px 2px #e6d6e6, 7px 2px #e6d6e6, 8px 2px #e6d6e6, 9px 2px #e6d6e6, 10px 2px #e6d6e6, 11px 2px #e6d6e6, 12px 2px #e6d6e6, 13px 2px #e6d6e6, 3px 3px #e6d6e6, 13px 3px #e6d6e6, 3px 4px #e6d6e6, 5px 4px #e6d6e6, 6px 4px #e6d6e6, 7px 4px #e6d6e6, 8px 4px #e6d6e6, 9px 4px #e6d6e6, 10px 4px #e6d6e6, 11px 4px #e6d6e6, 13px 4px #e6d6e6, 3px 5px #e6d6e6, 5px 5px #e6d6e6, 11px 5px #e6d6e6, 13px 5px #e6d6e6, 3px 6px #e6d6e6, 5px 6px #e6d6e6, 7px 6px #e6d6e6, 8px 6px #e6d6e6, 9px 6px #e6d6e6, 11px 6px #e6d6e6, 13px 6px #e6d6e6, 3px 7px #e6d6e6, 5px 7px #e6d6e6, 7px 7px #e6d6e6, 8px 7px #e6d6e6, 9px 7px #e6d6e6, 11px 7px #e6d6e6, 13px 7px #e6d6e6, 3px 8px #e6d6e6, 5px 8px #e6d6e6, 11px 8px #e6d6e6, 13px 8px #e6d6e6, 3px 9px #e6d6e6, 5px 9px #e6d6e6, 6px 9px #e6d6e6, 7px 9px #e6d6e6, 8px 9px #e6d6e6, 9px 9px #e6d6e6, 10px 9px #e6d6e6, 11px 9px #e6d6e6, 13px 9px #e6d6e6, 3px 10px #e6d6e6, 13px 10px #e6d6e6, 3px 11px #e6d6e6, 4px 11px #e6d6e6, 5px 11px #e6d6e6, 6px 11px #e6d6e6, 7px 11px #e6d6e6, 8px 11px #e6d6e6, 9px 11px #e6d6e6, 10px 11px #e6d6e6, 11px 11px #e6d6e6, 12px 11px #e6d6e6, 13px 11px #e6d6e6;
+  }
+ 
+  	.center {
+ 			 display: grid;
+ 			 place-items: center;
+	}
+  </style>
+<div class="grid-container"></div>
+<div class="item-a"></div>
+<div class="item-b"></div>
+</div>
+  
